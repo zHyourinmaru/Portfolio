@@ -505,6 +505,54 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+
+/* --------------------------------------- */
+/* ----- Work Two----- */
+/* --------------------------------------- */
+
+/* ----- NUOVA WORKBOX SENZA IMMAGINI ----- */
+
+.work__box-two {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.work__project {
+    flex: 1;
+    background: var(--color-light); /* opzionale */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* Titolo */
+.work__title {
+    margin-bottom: 1rem;
+}
+
+/* Descrizione */
+.work__description {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+/* Lista linguaggi */
+.work__list {
+    list-style-position: inside;
+    margin: 0;
+}
+
+/* ----- Responsive ----- */
+
+@media(max-width: 900px) {
+    .work__box-two {
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+
+
 /*
 /* ---------------------------------------
 /* ----- Clients -----
